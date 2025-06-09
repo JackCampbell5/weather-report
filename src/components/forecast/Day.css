@@ -1,0 +1,13 @@
+.Day{
+    border: 5px solid rgb(110, 110, 110);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.temperaturehot{
+    color: red;
+}
+.temperaturecold{
+    color: blue;
+}

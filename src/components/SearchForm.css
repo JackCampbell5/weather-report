@@ -1,0 +1,16 @@
+.search-form{
+    margin: 30px;
+}
+#search-box{
+    width: 50vw;
+    margin: 5px;
+}
+#search-button{
+    background-color:#ff75e6;
+    border-radius: 10px;
+    margin: 5px;
+}
+#search-button:hover{
+    background-color: #d800b1;
+    border-radius: 20px;
+}

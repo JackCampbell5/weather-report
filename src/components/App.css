@@ -1,0 +1,10 @@
+.App{
+  margin: 10vw;
+}
+header{
+  background-color: lightblue;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center  ;
+
+}

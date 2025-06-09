@@ -1,0 +1,11 @@
+#days{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#days:hover{
+    background-color: rgb(188, 255, 255);
+}
