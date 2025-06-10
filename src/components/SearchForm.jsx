@@ -3,12 +3,15 @@ import ReactDOM from "react-dom";
 import './SearchForm.css'
 
 
-function SearchForm() {
+function SearchForm({city,search,cityChange}) {
+
   return (
     // JSX code for rendering the component
     <div className="search-form">
-    <input id="search-box" placeholder="City, State Name"/>
-    <button className="button" id="search-button">Submit</button>
+      <form onSubmit={search}>
+        <input id="search-box" name="dataInput" value={city} onChange={cityChange} placeholder="City, State Name"/>
+        <button type="submit" id="search-button">Submit</button>
+      </form>
     </div>
   );
 }

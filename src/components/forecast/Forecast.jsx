@@ -8,6 +8,8 @@ import PropTypes from 'prop-types';
 
 
 function Forecast({data}) {
+  if(data!==null){
+    console.log(data)
   const preparedData = parseForecastData(data.list);
   let num = 0
   return (
@@ -21,6 +23,7 @@ function Forecast({data}) {
       </div>
     </div>
   );
+}
 }
 
 Forecast.propTypes = {
